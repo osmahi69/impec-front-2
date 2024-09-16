@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>impec_app</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>New Exception Domain</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationAccuracyUsageDescription</key>
+	<string>Nous utilisons la géolocalisation pour trouver un taxi à proximité avec une précision optimale.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>L'autorisation de localisation en continu est nécessaire pour trouver un taxi à proximité, même lorsque l'application est en arrière-plan.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>L'autorisation de localisation est nécessaire lorsque l'application est en cours d'utilisation pour trouver un taxi à proximité.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Nous utilisons votre emplacement pour améliorer votre expérience utilisateur.</string>
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>fonts/Ionicons.ttf</string>
+		<string>fonts/Montserrat-Black.ttf</string>
+		<string>fonts/Montserrat-BlackItalic.ttf</string>
+		<string>fonts/Montserrat-Bold.ttf</string>
+		<string>fonts/Montserrat-BoldItalic.ttf</string>
+		<string>fonts/Montserrat-ExtraBold.ttf</string>
+		<string>fonts/Montserrat-ExtraBoldItalic.ttf</string>
+		<string>fonts/Montserrat-ExtraLight.ttf</string>
+		<string>fonts/Montserrat-ExtraLightItalic.ttf</string>
+		<string>fonts/Montserrat-Italic.ttf</string>
+		<string>fonts/Montserrat-Light.ttf</string>
+		<string>fonts/Montserrat-LightItalic.ttf</string>
+		<string>fonts/Montserrat-Medium.ttf</string>
+		<string>fonts/Montserrat-MediumItalic.ttf</string>
+		<string>fonts/Montserrat-Regular.ttf</string>
+		<string>fonts/Montserrat-SemiBold.ttf</string>
+		<string>fonts/Montserrat-SemiBoldItalic.ttf</string>
+		<string>fonts/Montserrat-Thin.ttf</string>
+		<string>fonts/Montserrat-ThinItalic.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-BoldItalic.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-ExtraBoldItalic.ttf</string>
+		<string>Montserrat-ExtraLight.ttf</string>
+		<string>Montserrat-ExtraLightItalic.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-SemiBoldItalic.ttf</string>
+		<string>Montserrat-Thin.ttf</string>
+		<string>Montserrat-ThinItalic.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Nous avons besoin de l'accès à votre bibliothèque photo pour que vous puissiez sélectionner une photo de profil.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Nous avons besoin de l'accès à votre appareil photo pour que vous puissiez prendre des photos.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Nous utilisons la reconnaissance vocale pour vous permettre de saisir l'adresse d'un trajet en parlant.</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

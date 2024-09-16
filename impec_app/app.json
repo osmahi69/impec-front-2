@@ -1,0 +1,7 @@
+{
+  "name": "impec_app",
+  "displayName": "impec_app",
+  "API_URL": "https://api.im-pec.fr",
+  "API_URL_DEV": "http://192.168.1.23:3000",
+  "API_URL_PROD": "https://api.im-pec.fr"
+}

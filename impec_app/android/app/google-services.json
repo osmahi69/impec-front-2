@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "1034553201927",
+    "firebase_url": "https://impec-49acc.firebaseio.com",
+    "project_id": "impec-49acc",
+    "storage_bucket": "impec-49acc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034553201927:android:8358d3545b059998a021a2",
+        "android_client_info": {
+          "package_name": "fr.impec.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034553201927-buchavr32565vm50lsvk8cq1rcpqaeh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.impec.mobile",
+            "certificate_hash": "45230e089463104fd7a6bd390a89ccfd71f80047"
+          }
+        },
+        {
+          "client_id": "1034553201927-phmcf630fc48pgl9jfinuj1ccjro0f15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.impec.mobile",
+            "certificate_hash": "4f2c133f0e0cd72bdb8c31a215a98003c3d7c1e3"
+          }
+        },
+        {
+          "client_id": "1034553201927-skg58992evj4rorl9g825gq7du4gil5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYskea3XrcXHog0q4E_GO6p6oPye5h3oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102308129817483843745",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034553201927-6nf1n3kvufnm9fr936jv3ngsooq6lso5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "fr.impec.mobile",
+                "app_store_id": "1560009435"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
